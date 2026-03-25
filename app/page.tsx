@@ -13,21 +13,27 @@ export default function Home() {
     {
       photo: '/eboard/cj.jpeg',
       name: 'CJ Perriello',
-      contact: 'Contact coming soon',
+      contact: 'cperr23@stlawu.edu',
       description: 'Founder and President',
     },
     {
       photo: '/eboard/seamus.jpeg',
       name: 'Seamus Burke',
-      contact: 'Contact coming soon',
+      contact: 'smburk23@stlawu.edu',
       description: 'Cofounder and Head of Backend Development',
     },
     {
       photo: '/eboard/mj.jpeg',
       name: 'MJ Chaho',
-      contact: 'Contact coming soon',
+      contact: 'mjchah23@stlawu.edu',
       description: 'Cofounder and Head of Frontend Development',
     },
+    {
+      photo: '/eboard/jac.jpeg',
+      name: 'Jacobi Lafferty',
+      contact: 'jlaff23@stlawu.edu',
+      description: 'Head of Data Engineering'
+    }
     
   ];
 
