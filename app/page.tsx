@@ -14,31 +14,31 @@ export default function Home() {
       photo: '/eboard/cj.jpeg',
       name: 'CJ Perriello',
       contact: 'Contact coming soon',
-      description: 'Grand Chud, leader of them all',
+      description: 'Founder and President',
     },
     {
       photo: '/eboard/joe.jpeg',
       name: 'Joe Davis',
       contact: 'Contact coming soon',
-      description: 'Stinkiest Chud, smells bad',
+      description: 'Cofounder and Head of Backend Development',
     },
     {
       photo: '/eboard/seamus.jpeg',
       name: 'Seamus Burke',
       contact: 'Contact coming soon',
-      description: 'Co-Chud captian, gets no play what a chud',
+      description: 'Cofounder and Head of End to End Intergration',
     },
     {
       photo: '/eboard/mj.jpeg',
       name: 'MJ Chaho',
       contact: 'Contact coming soon',
-      description: 'Might be the def of a chud',
+      description: 'Cofounder and Head of Frontend Development',
     },
     {
       photo: '/eboard/ian.jpeg',
       name: 'Ian Marks',
       contact: 'Contact coming soon',
-      description: 'Not a part of the club just a massive chud',
+      description: 'Cofounder, Not part of the club',
     },
   ];
 
@@ -60,7 +60,7 @@ export default function Home() {
       {/* Chud Counsel */}
       <section id="counsel" className="max-w-6xl mx-auto mb-24">
         <div className="flex items-center gap-4 mb-8">
-          <h2 className="text-3xl font-bold">Chud Counsel</h2>
+          <h2 className="text-3xl font-bold">Founders and EBoard</h2>
           <div className="h-[1px] flex-1 bg-border" />
         </div>
         <div className="overflow-x-auto pb-2">
