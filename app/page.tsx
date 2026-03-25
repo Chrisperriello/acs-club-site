@@ -9,6 +9,38 @@ export default function Home() {
     'Build professional habits through collaboration, code review, and ownership.',
     'Grow career readiness with interview prep, modern tooling, and deployment experience.',
   ];
+  const eboardMembers = [
+    {
+      photo: '/eboard/cj.jpeg',
+      name: 'CJ Perriello',
+      contact: 'Contact coming soon',
+      description: 'E-Board member profile and role details coming soon.',
+    },
+    {
+      photo: '/eboard/joe.jpeg',
+      name: 'Joe Davis',
+      contact: 'Contact coming soon',
+      description: 'E-Board member profile and role details coming soon.',
+    },
+    {
+      photo: '/eboard/seamus.jpeg',
+      name: 'Seamus Burke',
+      contact: 'Contact coming soon',
+      description: 'E-Board member profile and role details coming soon.',
+    },
+    {
+      photo: '/eboard/mj.jpeg',
+      name: 'MJ Chaho',
+      contact: 'Contact coming soon',
+      description: 'E-Board member profile and role details coming soon.',
+    },
+    {
+      photo: '/eboard/ian.jpeg',
+      name: 'Ian Marks',
+      contact: 'Contact coming soon',
+      description: 'E-Board member profile and role details coming soon.',
+    },
+  ];
 
   return (
     <main className="min-h-screen pt-32 pb-20 px-6 bg-background">
@@ -61,6 +93,45 @@ export default function Home() {
               Builder Members attend weekly progress meetings, own technical scope, and collaborate
               toward production-ready results.
             </p>
+          </div>
+        </div>
+        <div className="mt-8 text-center">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSebViOR3DYz9PyTC2NtJsJTz9UWlU6zYuyHnQTCBjVSuwuh-w/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-xl bg-accent px-6 py-3 font-semibold text-foreground hover:bg-accent-strong transition-colors"
+          >
+            Apply Here
+          </a>
+        </div>
+      </section>
+
+      {/* Chud Counsel */}
+      <section id="counsel" className="max-w-6xl mx-auto mb-24">
+        <div className="flex items-center gap-4 mb-8">
+          <h2 className="text-3xl font-bold">Chud Counsel</h2>
+          <div className="h-[1px] flex-1 bg-border" />
+        </div>
+        <div className="overflow-x-auto pb-2">
+          <div className="flex gap-6 min-w-max">
+            {eboardMembers.map((member) => (
+              <article
+                key={member.name}
+                className="w-[320px] rounded-2xl border border-border bg-surface/45 p-6 shrink-0"
+              >
+                <div className="mb-4 h-36 rounded-xl border border-accent/30 bg-accent-strong/20 flex items-center justify-center">
+                   <img
+   src={member.photo}
+   alt={`${member.name} headshot`}
+   className="mb-4 h-36 w-full rounded-xl object-cover border border-accent/30"
+ />
+                </div>
+                <h3 className="text-xl font-bold mb-2">{member.name}</h3>
+                <p className="text-sm text-accent mb-3">{member.contact}</p>
+                <p className="text-muted leading-relaxed">{member.description}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>

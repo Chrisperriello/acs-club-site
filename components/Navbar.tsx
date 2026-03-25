@@ -12,6 +12,7 @@ export default function Navbar() {
         <div className="flex gap-8 text-sm font-medium text-muted">
           <Link href="#mission" className="hover:text-foreground transition">Mission</Link>
           <Link href="#membership" className="hover:text-foreground transition">Membership</Link>
+          <Link href="#counsel" className="hover:text-foreground transition">Chud Counsel</Link>
           <Link href="#projects" className="hover:text-foreground transition">Projects</Link>
           <Link href="#events" className="hover:text-foreground transition">Events</Link>
           <Link href="https://github.com" className="hover:text-foreground transition">
