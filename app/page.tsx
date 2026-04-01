@@ -33,7 +33,20 @@ export default function Home() {
       name: 'Jacobi Lafferty',
       contact: 'jlaff23@stlawu.edu',
       description: 'Head of Data Engineering'
-    }
+    },
+    {
+      photo: '/eboard/Peter.jpeg',
+      name: 'Peter Tornga',
+      contact: 'hptornga@stlawu.edu',
+      description: 'Ai Integration Engineer'
+    },
+    {
+      photo: '/eboard/Walker.jpeg',
+      name: 'Walker Henyon',
+      contact: 'wthenyon@stlawu.edu',
+      description: 'Head of Marketing and Memeber Recruitement'
+    },
+
     
   ];
 
