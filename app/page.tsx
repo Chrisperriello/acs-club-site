@@ -41,7 +41,7 @@ export default function Home() {
       description: 'Ai Integration Engineer'
     },
     {
-      photo: '/eboard/Walker.jpeg',
+      photo: '/eboard/Walker.png',
       name: 'Walker Henyon',
       contact: 'wthenyon@stlawu.edu',
       description: 'Head of Marketing and Memeber Recruitement'
