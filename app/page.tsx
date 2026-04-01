@@ -22,6 +22,12 @@ export default function Home() {
       contact: 'smburk23@stlawu.edu',
       description: 'Cofounder and Head of Backend Development',
     },
+     {
+      photo: '/eboard/joe.png',
+      name: 'Joe Davis',
+      contact: 'jdavis23@stlawu.edu',
+      description: 'Cofounder and Head of Software Development'
+    },
     {
       photo: '/eboard/mj.jpeg',
       name: 'MJ Chaho',
@@ -37,14 +43,20 @@ export default function Home() {
     {
       photo: '/eboard/Peter.jpeg',
       name: 'Peter Tornga',
-      contact: 'hptornga@stlawu.edu',
+      contact: 'hptornga24@stlawu.edu',
       description: 'Ai Integration Engineer'
     },
     {
       photo: '/eboard/Walker.png',
       name: 'Walker Henyon',
-      contact: 'wthenyon@stlawu.edu',
+      contact: 'wthenyon23@stlawu.edu',
       description: 'Head of Marketing and Member Recruitement'
+    },
+    {
+      photo: '/eboard/seb.jpeg',
+      name: 'Sebastian Boada',
+      contact: 'sboad24@stlawu.edu',
+      description: 'Software Engineer',
     },
 
     
