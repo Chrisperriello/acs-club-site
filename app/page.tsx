@@ -44,7 +44,7 @@ export default function Home() {
       photo: '/eboard/Walker.png',
       name: 'Walker Henyon',
       contact: 'wthenyon@stlawu.edu',
-      description: 'Head of Marketing and Memeber Recruitement'
+      description: 'Head of Marketing and Member Recruitement'
     },
 
     
