@@ -29,7 +29,7 @@
         "Calculates Delta using finite-difference methods",
         "Leverages Rayon for multicore parallel path generation"
       ]
-    }
+    },
     {
       "title": "Alpine Performance Bridge(Ongoing)",
       "description": "A Flutter app designed to synchronize real-time alpine racing results with specific equipment profiles, allowing competitive skiers to optimize their performance through integrated trend analysis and visual analytics. ",
@@ -43,6 +43,7 @@
         "links raw performance data to specific ski setups for equipment optimization.",
         "Real-time trend visualization and ranked equipment lists to track session-over-session growth.",
         "Engineered with a reactive Flutter framework and Riverpod state management for data integrity."
+      ]
     }
   ]
 }
